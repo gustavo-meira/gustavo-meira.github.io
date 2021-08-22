@@ -1,0 +1,113 @@
+:root {
+  --background-color: #252f2f;
+  --section-color: #b3ccbe;
+  --emphasis-color: #6b9097;
+  --outline-color: #78afb4;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  border: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+.background-codigo {
+  background-image: url("../images/code.jpg");
+  background-size: cover;
+  height: 100%;
+  width: 35%;
+}
+
+body {
+  display: flex;
+}
+
+.conteudo {
+  height: 100%;
+  width: 65%;
+  background-color: var(--background-color);
+  color: #ccc;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.nome-profissao {
+  padding-right: 10%;
+  text-align: right;
+	margin-top: 10%;
+}
+
+.nome {
+  font-size: 62px;
+  font-family: Roboto;
+}
+
+.profissao {
+  display: block;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.sobre-mim {
+	background-color: var(--section-color);
+	color: black;
+	width: 60%;
+	margin-left: 5%;
+	padding: 12px;
+	border-radius: 10px;
+	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	font-family: Lato;
+}
+
+.sobre-mim-titulo {
+	font-size: 2.2rem;
+	font-weight: normal;
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+.sobre-mim-texto {
+	font-size: 1.5rem;
+	text-align: justify;
+}
+
+.links {
+	width: 20%;
+	height: 10%;
+	background-color: rgba(220, 220, 220, 0.25);
+	margin-bottom: 5%;
+	display: flex;
+  align-items: center;
+}
+
+.links a {
+	width: 100%;
+	height: 90%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.links img {
+  height: 100%;
+}
+
+.imagem-perfil {
+  position: absolute;
+  background-image: url('../images/gustavo-meira.jpeg');
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  box-shadow: 15px 15px 0px 0px rgba(0, 0, 0, 0.25);
+  width: 15%;
+  height: 30%;
+  top: 45%;
+  left: 57%;
+}
